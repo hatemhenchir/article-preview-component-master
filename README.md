@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Article Preview Component with Fade-In Animation - React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my solution for the Article Preview Component challenge from Frontend Mentor with an added fade-in animation effect. The challenge was to create a responsive article preview component that displays an article image, title, author, and publishing date. Additionally, the component should have a share button that displays social media icons on click, and the social media icons should have a fade-in animation effect.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Acknowledgements](#acknowledgements)
+- [Credits](#credits)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is a README file for a project that includes an Article Preview Component developed with React and an added fade-in animation effect. The article preview component is responsive and displays an article image, title, author, and publishing date. The component also has a share button that displays social media icons on click, and the social media icons have a fade-in animation effect.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Screenshot
 
-### `npm test`
+| ![](./screenshots/desktop.png) | ![](./screenshots/mobile.png) |
+| ------------------------------ | ----------------------------- |
+| Desktop version                | Mobile version                |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| ![](./screenshots/desktop_active.png) | ![](./screenshots/mobile_active.png) |
+| ------------------------------ | ----------------------------- |
+| Desktop version                | Mobile version                |
 
-### `npm run build`
+### Links
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Live Demo](https://hatemhenchir.github.io/article-preview-component-master/)
+- [Repository](https://github.com/hatemhenchir/article-preview-component-master/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The features of this project are as follows:
 
-### `npm run eject`
+- Displays article image, title, author, and publishing date
+- Share button that displays social media icons on click
+- Social media icons with fade-in animation effect
+- Responsive design for desktop and mobile
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The technologies used in this project are as follows:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React
+- HTML
+- CSS
+- JavaScript
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Setup
 
-## Learn More
+To set up this project, follow the steps below:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repository: `git clone https://github.com/your-username/article-preview-component-master.git`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm start`
+4. Open the application in your browser at `http://localhost:3000`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+To use this project, follow the steps below:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Open the application in your browser at `http://localhost:3000`
+2. Click on the share button to display the social media icons with a fade-in animation effect
+3. Click on any social media icon to share the article
+4. Scroll down the page to view the fade-in animation effect on the article preview components
 
-### Analyzing the Bundle Size
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project was developed with reference to the following resources:
 
-### Making a Progressive Web App
+- [Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT) for providing the challenge
+- [React documentation](https://reactjs.org/docs/getting-started.html) for reference and guidance
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Credits
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- My LinkedIn: [@hatem-henchir-7a92141a8](https://www.linkedin.com/in/hatem-henchir-7a92141a8/)
+- My Frontend Mentor: [@hatemhenchir](https://www.frontendmentor.io/profile/hatemhenchir)
